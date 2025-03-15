@@ -139,6 +139,7 @@ nav ul ul ul { left: 100%; top: 0%;}
 
 nav > ul { padding-left: 200px;}
 nav > ul > li { float: left;}
+nav > ul > li > a { width: auto; padding: 10 px 20px 15px 20px;}
 
 
 /* Footer */
