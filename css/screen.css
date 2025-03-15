@@ -117,6 +117,8 @@ nav::after {content:''; display: block; clear: both;}
 nav ul { list-style: none; margin: 0; padding: 0px;}
 nav ul li:hover { background-color: #2b0306;}
 
+nav ul li:hover > ul { display: block;}
+
 nav ul li a {
     display: inline-block;
     color: #fff;
@@ -128,7 +130,7 @@ nav ul li a {
 nav ul li a:visited {color: #fff;}
 nav ul li a:hover { background-color: #6d0911;}
 
-nav ul ul { position: absolute; top: 100%; background-color: #2b0306;}
+nav ul ul { position: absolute; top: 100%; background-color: #2b0306; display: none;}
 
 nav ul ul li { position: relative;}
 nav ul ul ul { left: 100%; top: 0%;}
