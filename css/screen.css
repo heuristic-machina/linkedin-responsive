@@ -113,6 +113,8 @@ nav {
 }
 
 nav ul { list-style: none; margin: 0; padding: 0px;}
+nav ul li:hover { background-color: #2b0306;}
+
 nav ul li a {
     display: inline-block;
     color: #fff;
