@@ -127,6 +127,12 @@ nav ul li a:visited {color: #fff;}
 nav ul li a:hover { background-color: #6d0911;}
 
 
+/* top-level parent to child */
+
+nav > ul { padding-left: 200px;}
+nav > ul > li { float: left;}
+
+
 /* Footer */
 
 footer { font-size: .8em; margin: 40px; color:#999;}
