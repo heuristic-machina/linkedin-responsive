@@ -86,7 +86,7 @@
 @media screen and (max-width: 625px) {
     h1 { font-size: 1em;}  
     h3 { margin-bottom: 0px;}
-    a.btn {font-size: .8em;}
+    a.btn {font-size: .5em; margin-left: 30%;}
         
     /* Header */
     header {
@@ -106,8 +106,8 @@
     
     header div.hero {
         width: 300px; 
-        top: 85px; 
-        left: 130px;}
+        top: 67px; 
+        left: 180px;}
 
     header div.hero h1 { margin-bottom: 10px;}
     
@@ -174,8 +174,20 @@
     nav ul ul ul {display: block; position: static;}
     nav > ul {padding: 0;}
     nav > ul > li { float: none; margin-top: 25px;}
+    nav ul li:hover {background: none;}
+    nav ul li a {
+        width: auto;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px, solid rgba(255,255,255,.25);
+    }
+    nav ul li a:hover {background-color: rgba(255,255,255,.2);}
+    nav ul ul { background: none;}
+    nav ul ul li a { margin-left: 30px;}    
+    nav ul ul ul li a { margin-left: 60px;}    
+    nav a[aria-haspopup='true']::after {display:none;}
 }
-    
     
     @media screen and (max-width: 595px) {
     a.btn {font-size: 60%;}
@@ -183,7 +195,9 @@
     /* Section - Main */
     section.main {font-size: 60%;}
 
-    section.how-to blockquote p.credit {
-        font-size: .6em;
-    }
+    section.how-to blockquote p.credit {font-size: .6em;}
+
+    /* Footer */
+    footer div.content {display:block; margin-top: 15px;}
+    footer div.content a {margin: 0 20px 0 0;}
 }
