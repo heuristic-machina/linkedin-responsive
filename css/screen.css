@@ -165,7 +165,6 @@ nav > ul > li > a[aria-haspop='true']::after {
 
 }
 
-
 /* Footer */
 
 footer { font-size: .8em; margin: 40px; color:#999;}
@@ -174,60 +173,3 @@ footer a {margin-left: 30px; color:#777;}
 footer a:visited {color:#777;}
 footer a:hover {color:#000;}
 
-
-/* Media Queries */
-
-@media screen and (max-width: 1035px) {
-    h1 { font-size: 2.4em;}
-    a.btn {font-size: .85em;}
-
-    /* Header */
-    header div.hero {left: 56%;}
-    header div.hero h1 { margin-bottom: 20px;}
-
-    /* Section - Atmosphere */
-    section.atmosphere article { padding-left: 400px; background-size: 375px auto;}
-}
-
-@media screen and (max-width: 843px) {
-    h1 { font-size: 1.4em;}
-    a.btn {font-size: .75em;}
-    
-    /* Header */
-    header { height: 300px; background-image: url(../images/banner_825.jpg);}
-    header div.hero { top: 160px; left: 48%}
-    
-    /* Section - Atmosphere */
-    section.atmosphere article { padding-left: 325px; background-size: 300px auto;}
-    
-    /* Section - How To */
-    section.how-to blockquote p.quote {font-size: 1.1em; line-height: 1.2em;}
-    section.how-to blockquote p.credit { font-size: .85em;}
-
-    /* Navigation */
-    nav { padding-top: 80px;}
-    nav > ul { padding-left: 10%;}
-    
-}
-
-@media screen and (max-width: 773px) {
-    h1 { font-size: 1.4em;}
-    h2 { font-size: 1.0em;}
-    h3 { font-size: .85em;}
-    a.btn {font-size: .75em;}
-
-    /* Header */
-    header a.logo {width: 145px; height:60px;}
-    header div.hero {top: 164px; left: 48%;}
-
-    /* Section - Main */
-    section.main {margin-top: 10px; margin-bottom: 10px;}
-    section.main aside div.content { background-size: 55px 55px; padding-top: 60px;}
-
-    /* Section How To */
-    section.how-to aside div.content img { width: 85%;}
-
-    /* Navigation */
-    nav { padding-top: 80px;}
-    nav > ul { padding-left: 10px;}
-}
